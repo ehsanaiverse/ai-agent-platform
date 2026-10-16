@@ -1,0 +1,55 @@
+# ==========================
+# API & Server
+# ==========================
+fastapi
+uvicorn[standard]
+
+# ==========================
+# AI & LangGraph
+# ==========================
+langchain
+langgraph
+
+langchain-community
+langchain-groq
+groq
+
+# ==========================
+# Database
+# ==========================
+sqlalchemy
+psycopg[binary]
+alembic
+pydantic
+pydantic-settings
+
+# ==========================
+# Configuration
+# ==========================
+pydantic-settings
+python-dotenv
+
+# ==========================
+# HTTP Client
+# ==========================
+httpx
+
+# ==========================
+# Logging
+# ==========================
+structlog
+rich
+
+# ==========================
+# Testing
+# ==========================
+# pytest
+# pytest-asyncio
+
+# ==========================
+# Code Quality
+# ==========================
+# black
+# isort
+# ruff
+# pre-commit
